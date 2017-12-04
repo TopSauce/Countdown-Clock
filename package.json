@@ -1,26 +1,17 @@
 {
-  "name": "countdown-clock",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TopSauce/Countdown-Clock.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TopSauce/Countdown-Clock/issues"
-  },
-  "homepage": "https://github.com/TopSauce/Countdown-Clock#readme",
+  "name": "Countdown-Clock",
   "dependencies": {
     "animate.css": "^3.5.2",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "autoprefixer": "^7.2.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0"
   }
 }
