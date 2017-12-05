@@ -19,3 +19,4 @@ function timer() {
 		clock();
 	}, 1000)
 }
+

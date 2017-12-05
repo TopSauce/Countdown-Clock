@@ -3,6 +3,7 @@
 <head>
 	<title>Countdown Clock</title>
 	<script type="text/javascript" src="./lib/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="./lib/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./Styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="./lib/animate.css/animate.min.css">
@@ -10,9 +11,17 @@
 
 </head>
 <body>
-	<h1 class="animated bounceInDown">A basic countdown clock</h1>
-	<h2 class="animated bounceInUp"></h2>
 
+	<h1 class="animated bounceInDown">A basic countdown clock</h1>
+	<div class="container animated bounceInUp">
+	<h2></h2>
+</div>
+
+	<h3>Choose your own countdown!</h3>
+ 	<div id="datePicker">
+	<input class="input" id="date" type="date">
+	<input class="input" id="time" type="time">  
+	</div>  
 	<script type="text/javascript" src="./js/countdown.js"></script>
 </body>
 </html>
